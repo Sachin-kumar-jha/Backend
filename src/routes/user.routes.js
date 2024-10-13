@@ -24,7 +24,7 @@ router.route("/login").post(loginUser);
 
 //Secured routs
 router.route("/logout").post(verifyJwt,logOutUser);
-router.route("/refre-token").post(refreshAccessToken);
+router.route("/refresh-token").post(refreshAccessToken);
 
 
 
